@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>
+         Form
+    </title>
+    <meta charset="UFT-8"/>
+    <meta name="description" content="My web">
+    <meta name="keywords" content="HTML, Form ">
+    <meta name="author" content="Ahmed Khamies">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<html>
+    <body>
+        <form>
+           <label for="email">Email</label>
+           <input id="email" autocomplete="email" type="email" required placeholder="enter your email" name="email" >
+           <br><br>
+           <label for="password" >Password</label>
+           <input id="password" type="password" required placeholder="enter your password" name="password">
+            <br><br>
+            <label for="datetime-local">Datetime-local</label>
+            <input id= "datetime-local"type="datetime-local" required name="datetime-local">
+            <br>
+            <h3>Gender</h3>
+            <input id="male" type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <br>
+            <input id="female" type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+            <h3>What is your hobbies?</h3>
+            <label for="hobbies">Hobby</label>
+            <select id="hobbies" name="Hobby">
+                <optgroup label="--Hobbies--">
+                    <option value="football">Football</option>
+                    <option value="eating">Eating</option>
+                    <option value="basketball">Basketball</option>
+                    <option value="reading">Reading</option>
+                    <option selected value="sleeping">Sleeping</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <h3>Country</h3>
+            <input name="country" list="country" autocomplete="country">
+            <datalist id="country">
+                    <option value="Egypt">Egypt</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Brazil">Brazil</option>
+                    <option  value="New Yourk">New Yourk</option>
+            </datalist>
+            <br><br>
+            <h3><mark>TODO LIST:</mark></h3>
+            <input type="checkbox" id="todo1" name="todo" value="html">
+            <label for="todo1">HTML</label>
+            <br>
+            <input type="checkbox" id="todo2" name="todo" value="css">
+            <label for="todo2">CSS</label>
+            <br>
+            <input type="checkbox" id="todo3" name="todo" value="javascript">
+            <label for="todo3">JavaSctipt</label>
+            <br><br>
+            <h2>If you wanna know a bout me click link below<mark>👇🏻👇🏻👇🏻</mark></h2>
+            <a href="./page2.html" target="_blank">A bout me</a>
+            <br><br>
+            <button>Submit</button>
+
+        </form>
+    </body>
+</html>
